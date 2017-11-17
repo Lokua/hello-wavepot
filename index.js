@@ -13,7 +13,7 @@ const ex1 = time =>
   
 const ex2 = time => 
   sin(time, 60)
-
+ 
 export function dsp(time) {
   return ex2(time)
 }
